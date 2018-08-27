@@ -1,0 +1,53 @@
+body, html {
+    height: 100%;
+}
+.bg {
+    /* The image used */
+    background-image: url("lorica.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex;
+
+
+}
+h1 {
+    font-family: 'Metamorphous', cursive;
+    font-family: 'Rubik', sans-serif;
+    position: absolute;
+    font-weight:700;
+    top:35%;
+    left:64%;
+    letter-spacing: 25px;
+
+}
+
+
+.Launch-Button {
+  position: absolute;
+  top: 45%;
+  left: 69%;
+}
+@media (max-width: 745px){
+  h1{
+    font-size: 0 ;
+  }
+  .Launch-Button{
+    position:absolute;
+    top:30%;
+    left:69%;
+  }
+
+}
+.btn-dark{
+  background-color: rgb(97,98,123);
+}
+
+
+
+}
